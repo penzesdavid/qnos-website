@@ -1,0 +1,22 @@
+:root{
+    --Federal-blue: #03045E;
+    --Honolulu-blue: #0077B6;
+    --Pacific-cyan: #00B4D8;
+    --Non-Photo-blue: #90E0EF;
+    --Light-cyan: #CAF0F8;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&family=Lexend:wght@100..900&family=Quicksand:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  font-family: Quicksand, sans-serif;
+}
+
+
+
+    
