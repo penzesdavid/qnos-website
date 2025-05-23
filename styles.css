@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Gantari:ital,wght@0,100..900;1,100..900&family=Lexend+Giga:wght@100..900&family=Lexend:wght@100..900&family=Quicksand:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
 :root{
     --Federal-blue: #03045E;
     --Honolulu-blue: #0077B6;
@@ -5,7 +7,6 @@
     --Non-Photo-blue: #90E0EF;
     --Light-cyan: #CAF0F8;
 }
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&family=Lexend:wght@100..900&family=Quicksand:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 *{
     margin: 0;
@@ -14,7 +15,103 @@
 }
 
 body{
-  font-family: Quicksand, sans-serif;
+  font-family: Roboto Mono;
+}
+
+.gradient-background {
+  color: #fff;
+  height: 15rem;
+  background: linear-gradient(247deg,#caf0f8,#0077b6,#03045e);
+  background-size: 180% 180%;
+  animation: gradient-animation 24s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+header .text-center{
+  padding: 2rem;
+}
+
+.social-icons {
+  text-align: center;
+  padding: 1rem;
+}
+
+.social-icon {
+  width: 35px;
+}
+
+.col-sm-6 {
+  padding: 10px;
+}
+
+.text {
+  font-size: 1.2rem;
+  
+}
+
+.text-box {
+  text-align: justify;
+}
+
+.box-kozep {
+  margin: 50px;
+  text-align: center;
+}
+
+.box-kozep p {
+  padding: 10px;
+}
+
+.line {
+  padding: 10px;
+  border-bottom: 5px solid var(--Pacific-cyan);
+  border-radius: 20%;
+}
+
+.szoveg-szin {
+  color: var(--Honolulu-blue);
+}
+
+.col-sm-3 {
+  padding: 10px;
+}
+
+.box-funkcio {
+  text-align: center;
+  padding: 10px;
+  height: 100%;
+  border-radius: 25px;
+  border: 1px solid var(--Pacific-cyan);
+  box-shadow: 0 0px 16px rgba(0, 0, 0, 0.15);
+}
+
+.box-funkcio img {
+  width: 50%;
+  margin: 25px;
+  border-radius: 20px;
+}
+
+#egesz-funk {
+  margin: 40px;
+}
+
+.automation-progress-pic {
+  float: right;
+}
+
+footer {
+  clear: both;
 }
 
 
