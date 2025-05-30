@@ -38,8 +38,28 @@ body{
   }
 }
 
+.nav-link:hover {
+  color: var(--Pacific-cyan);
+  transition: all 0.2s ease;
+  transform: scale(1.1);
+}
+
+.btn {
+  border: none;
+}
+
+.btn:hover {
+  background-color: var(--Federal-blue);
+  transition: all 0.3s ease;
+  box-shadow: 0 0px 16px rgba(255, 255, 255, 0.795);
+}
+
 header .text-center{
   padding: 2rem;
+}
+
+footer {
+  clear: both;
 }
 
 .social-icons {
@@ -49,6 +69,10 @@ header .text-center{
 
 .social-icon {
   width: 35px;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
 }
 
 .col-sm-6 {
@@ -96,6 +120,12 @@ header .text-center{
   box-shadow: 0 0px 16px rgba(0, 0, 0, 0.15);
 }
 
+.box-funkcio:hover {
+  border: 1px solid var(--Honolulu-blue);
+  transition: transform 2s ease;
+  transform: scale(1.1);
+}
+
 .box-funkcio img {
   width: 50%;
   margin: 25px;
@@ -110,9 +140,42 @@ header .text-center{
   float: right;
 }
 
-footer {
+.Subscribe-box {
+  margin: 10px;
   clear: both;
+  background-color: var(--Honolulu-blue);
+  padding: 20px;
+  color: white;
+  border: 2px solid var(--Federal-blue);
+  border-radius: 10px;
 }
+
+input[type=text], input[type=email], input[type=submit] {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+input[type=submit] {
+  background-color: var(--Pacific-cyan);
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  transition: all 0.2s ease;
+  background-color: var(--Federal-blue);
+}
+
+
 
 
 
