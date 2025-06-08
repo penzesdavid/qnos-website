@@ -15,7 +15,7 @@
 }
 
 body{
-  font-family: Roboto Mono;
+  font-family: 'Lexend', sans-serif;
 }
 
 .gradient-background {
@@ -46,12 +46,13 @@ body{
 
 .btn {
   border: none;
+  background-color: var(--Pacific-cyan);
 }
 
 .btn:hover {
-  background-color: var(--Federal-blue);
-  transition: all 0.3s ease;
-  box-shadow: 0 0px 16px rgba(255, 255, 255, 0.795);
+  background-color: var(--Honolulu-blue);
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 0px 16px rgba(36, 35, 35, 0.795);
 }
 
 header .text-center{
@@ -122,8 +123,9 @@ footer {
 
 .box-funkcio:hover {
   border: 1px solid var(--Honolulu-blue);
-  transition: transform 2s ease;
+  transition: transform 0.2s ease;
   transform: scale(1.1);
+  color: var(--Federal-blue);
 }
 
 .box-funkcio img {
@@ -134,10 +136,6 @@ footer {
 
 #egesz-funk {
   margin: 40px;
-}
-
-.automation-progress-pic {
-  float: right;
 }
 
 .Subscribe-box {
@@ -172,10 +170,8 @@ input[type=submit] {
 
 input[type=submit]:hover {
   transition: all 0.2s ease;
-  background-color: var(--Federal-blue);
+  background-color: var(--Honolulu-blue);
 }
-
-
 
 
 
